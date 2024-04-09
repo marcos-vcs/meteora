@@ -1,7 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primario-black: #000;
+    --primario-cinza: #ccc;
+    --primario-amarelo: #daff01;
+    --primario-roxo: #9353ff;
+}
+
 .texto-menor{
     font-size: 13px;
 }
 
 .facilidades{
     width: 325px;
+}
+
+.cor_icones_facilidades{
+    color: var(--primario-amarelo);
+}
+
+.cor_botao_produtos_bombando{
+    background-color: var(--primario-roxo) !important;
+}
+
+.tamanho-newsletter{
+    width: 75%;
+}
+
+@media (min-width: 768px) {
+    .tamanho-newsletter{
+        width: 50%;
+    }
 }
